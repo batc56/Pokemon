@@ -4,6 +4,13 @@ public class Pokemon {
     protected int hp;
     protected int atk;
 
+    /**
+     * Constructeur pour Pokemon
+     * @param nom
+     * @param hp
+     * @param atk
+     */
+
     public Pokemon(String nom, int hp, int atk) {
         this.nom = nom;
         this.hp = hp;
